@@ -34,6 +34,27 @@ Execute o script principal:
 python g_crypto.py
 ```
 
+### 🌐 Modo Web em Tempo Real (HTML + Gráficos)
+
+Para usar a aplicação no navegador com atualização automática e gráfico interativo:
+
+```bash
+python web_app.py
+```
+
+Depois abra no navegador:
+
+```text
+http://localhost:8000
+```
+
+No painel web você pode:
+
+1. Buscar qualquer moeda por nome ou ID (ex: bitcoin, ethereum, solana).
+2. Definir quantos dias de histórico deseja visualizar.
+3. Ajustar o intervalo de atualização em segundos.
+4. Acompanhar preço, variação 24h, market cap, volume e médias móveis (SMA-7 e SMA-20).
+
 O programa oferece um fluxo intuitivo:
 1. **Seleção**: Escolha uma moeda da lista VIP ou busque qualquer outra.
 2. **Histórico**: Defina o período de análise (ex: 7, 30, 90 dias).
